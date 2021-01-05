@@ -1,5 +1,13 @@
-.someClass {
+.greeting {
+    margin: 20px;
+    position: relative;
+}
 
+.errorMessage {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: red;
 }
 
 .error {

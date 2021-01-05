@@ -1,0 +1,42 @@
+.message {
+    box-sizing: border-box;
+    display: inline-flex;
+    margin: 40px 20px;
+}
+
+.avatar {
+    position: absolute;
+    left: 290px;
+    bottom: 75%;
+    align-self: flex-end;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.messageCard {
+    position: relative;
+    min-width: 300px;
+    max-width: 300px;
+    max-height: 150px;
+    padding: 10px;
+    background-color: #838386;
+    border-radius: 12px;
+}
+
+.name {
+    margin-bottom: 5px;
+    color: #10e5e5;
+}
+
+.messageTime {
+    max-width: 40px;
+    align-self: flex-end;
+    color: #696767;
+    font-size: .75rem;
+}
+
+.messageText {
+    color: #fff;
+}
