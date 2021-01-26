@@ -1,0 +1,26 @@
+.aside {
+    display: inline-flex;
+
+}
+
+.aside:after {
+    content: ">";
+    position: absolute;
+    right: -50%;
+    top: 50%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.aside:after:hover .aside {
+    transform: translateX(-100%);
+}
+.aside a {
+    padding: 10px;
+    color: #191b1f;
+    text-decoration: none;
+}
+
+.aside a:not(:last-child) {
+    margin-right: 10px;
+}
